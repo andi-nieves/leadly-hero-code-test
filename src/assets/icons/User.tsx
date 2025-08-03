@@ -1,0 +1,8 @@
+import { SVGProps } from "react";
+
+export default function UserIcon(props: SVGProps<any>) {
+    return <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+        <circle cx="4" cy="3" r="3" fill="#253451" />
+        <path d="M0 11C0 8.79086 1.79086 7 4 7C6.20914 7 8 8.79086 8 11V13H0V11Z" fill="#253451" />
+    </svg>
+}

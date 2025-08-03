@@ -1,0 +1,14 @@
+import { SVGProps } from "react";
+
+export default function LogoIcon(props: SVGProps<any>) {
+    return <svg width="36" height="30" viewBox="0 0 36 30" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+        <ellipse cx="18" cy="14.7167" rx="18" ry="14.7167" fill="url(#paint0_linear_1_83)" />
+        <defs>
+            <linearGradient id="paint0_linear_1_83" x1="25.7838" y1="1.63519" x2="16.1222" y2="30.5924" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#FFA501" />
+                <stop offset="0.716391" stopColor="#052F82" />
+            </linearGradient>
+        </defs>
+    </svg>
+
+}
