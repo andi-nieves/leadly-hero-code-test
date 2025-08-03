@@ -1,6 +1,6 @@
 import { SVGProps } from "react";
 
-export default function Plane(props: SVGProps<any>) {
+export default function Plane(props: SVGProps<SVGSVGElement>) {
     return <svg width="209" height="144" viewBox="0 0 209 144" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" {...props}>
         <g filter="url(#filter0_d_1_22)">
             <rect x="6" y="5" width="178" height="126" rx="32" fill="white" />

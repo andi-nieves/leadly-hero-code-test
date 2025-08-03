@@ -1,6 +1,6 @@
 import { SVGProps } from "react";
 
-export default function KebabIcon(props: SVGProps<any>) {
+export default function KebabIcon(props: SVGProps<SVGSVGElement>) {
     return <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
         <path d="M0.473633 1H16.1925" stroke="#253451" strokeWidth="1.5" />
         <path d="M0.473633 7H16.1925" stroke="#253451" strokeWidth="1.5" />

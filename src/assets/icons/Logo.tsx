@@ -1,6 +1,6 @@
 import { SVGProps } from "react";
 
-export default function LogoIcon(props: SVGProps<any>) {
+export default function LogoIcon(props: SVGProps<SVGSVGElement>) {
     return <svg width="36" height="30" viewBox="0 0 36 30" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
         <ellipse cx="18" cy="14.7167" rx="18" ry="14.7167" fill="url(#paint0_linear_1_83)" />
         <defs>
